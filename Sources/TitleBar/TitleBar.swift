@@ -21,7 +21,7 @@ import SwiftUI
 
 public extension View {
     func titleBar() -> some View {
-        self.overlay(TitleBarNSViewRepresentable())
+        overlay(TitleBarNSViewRepresentable())
     }
 }
 
